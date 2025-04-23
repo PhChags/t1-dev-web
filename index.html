@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Studio Brisa</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="Studio Brisa" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" 
+                aria-controls="menu" aria-expanded="false" aria-label="Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle active" data-toggle="dropdown" href="#">
+                            Portfólio
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#sobre">Geral</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#residencial">Residencial</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#comercial">Comercial</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#verde">Design Verde</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#depoimentos">Depoimentos</a>
+                        </div>
+                    </div>
+                    <a class="nav-item nav-link" href="faq.html">FAQ</a>
+                    <a class="nav-item nav-link" href="contato.html">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="d-flex justify-content-center">
+        <img src="assets/images/header.png" class="img-fluid" alt="Projeto de arquitetura moderno">
+    </div>
+
+    <main class="container">
+
+        <!-- Sobre -->
+        <section id="sobre" class="mb-5 mt-5">
+            <div class="p-4 bg-dark-purple rounded-2 text-justify">
+                <h1>Sobre</h1><br>
+                <p> <strong> Mariana Costa </strong> é arquiteta e designer de interiores formada pela Universidade de São Paulo (USP), com especialização em Design Sustentável pela Politecnico di Milano (Itália). Com mais de 15 anos de experiência no mercado, já desenvolveu projetos residenciais, comerciais e corporativos premiados, sempre com foco na harmonia entre funcionalidade e estética.</p>
+                <p> Fundadora do escritório <strong>Studio Brisa</strong>, Mariana acredita que bons projetos devem refletir a personalidade dos clientes enquanto criam espaços práticos e inspiradores. Seu trabalho combina técnicas tradicionais com as mais recentes inovações em materiais e tecnologias sustentáveis, atendendo principalmente ao <strong>Rio de Janeiro e região metropolitana (Niterói, São Gonçalo, Maricá)</strong>.</p>
+            </div>
+        </section>
+        
+        <!-- Accordion Especialidades -->
+        <section id="especialidades" class="mb-5 pt-5">
+            <h1 class="text-dark-purple">Especialidades</h1>
+            <div class="accordion pt-3" id="especialidades-accordion">
+                <div class="card bg-purple rounded-top">
+                   <div class="card-header" id="header-residencial">
+                      <h4 class="mb-0">
+                         <a href="#residencial" class="text-white" data-toggle="collapse" aria-expanded="true" aria-controls="residencial">
+                            Design Residencial
+                         </a>
+                      </h4>
+                   </div>
+                   <div id="residencial" class="collapse show" data-parent="#especialidades-accordion" aria-labelledby="header-residencial">
+                      <div class="card-body text-justify">
+                         Transformamos casas e apartamentos em lares funcionais e acolhedores. Desde reformas completas até a decoração final, cuidamos de cada detalhe para criar espaços que refletem seu estilo de vida. Nossos projetos residenciais incluem planejamento de layout, seleção de materiais, iluminação e mobiliário, sempre com atenção às necessidades específicas de cada família.
+                      </div>
+                   </div>
+                </div>
+                <div class="card bg-purple">
+                   <div class="card-header" id="header-comercial">
+                      <h4 class="mb-0">
+                         <a href="#comercial" class="text-white" data-toggle="collapse" aria-expanded="true" aria-controls="comercial">
+                            Arquitetura Comercial
+                         </a>
+                      </h4>
+                   </div>
+                   <div id="comercial" class="collapse" data-parent="#especialidades-accordion" aria-labelledby="header-comercial">
+                      <div class="card-body text-justify">
+                        Projetamos espaços comerciais que equilibram branding, funcionalidade e experiência do cliente. De lojas a restaurantes e escritórios corporativos, criamos ambientes que comunicam a identidade da marca enquanto otimizam o fluxo de pessoas e operações. Nossa abordagem considera desde a sinalização até a acústica, criando espaços que impressionam e convertem.
+                      </div>
+                   </div>
+                </div>
+                <div class="card bg-purple">
+                    <div class="card-header" id="header-sustentavel">
+                       <h4 class="mb-0">
+                          <a href="#sustentavel" class="text-white" data-toggle="collapse" aria-expanded="true" aria-controls="sustentavel">
+                             Design Sustentável
+                          </a>
+                       </h4>
+                    </div>
+                    <div id="sustentavel" class="collapse" data-parent="#especialidades-accordion" aria-labelledby="header-sustentavel">
+                       <div class="card-body text-justify">
+                        Especializados em projetos eco-friendly, utilizamos materiais sustentáveis, técnicas de eficiência energética e soluções inteligentes para reduzir o impacto ambiental. Nossos projetos sustentáveis incluem desde a seleção de madeira certificada até sistemas de reaproveitamento de água e energia, provando que design de qualidade pode ser ambientalmente responsável.
+                       </div>
+                    </div>
+                 </div>
+                <div class="card bg-purple rounded-bottom">
+                   <div class="card-header" id="header-consultoria">
+                      <h4 class="mb-0">
+                         <a href="#consultoria" class="text-white" data-toggle="collapse" aria-expanded="true" aria-controls="consultoria">
+                            Consultoria Personalizada
+                         </a>
+                      </h4>
+                   </div>
+                   <div id="consultoria" class="collapse" data-parent="#especialidades-accordion" aria-labelledby="header-consultoria">
+                      <div class="card-body text-justify">
+                        Oferecemos serviços de consultoria para quem busca orientação profissional em projetos menores ou deseja uma segunda opinião especializada. Nossas consultorias podem abranger desde a escolha de cores e materiais até a reorganização completa de espaços, proporcionando soluções práticas e criativas para qualquer desafio de design.
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção Formação -->
+        <section class="pt-5" id="formacao">
+            <h1 class="text-dark-purple">Formação</h1>
+            <div class="blog-section row">
+                <img src="assets/images/formacao.png" class="blog-item w-50" alt="Mariana Costa em seu escritório">
+                <ul class="list-group text-yellow blog-item">
+                    <li class="list-group-item bg-dark-purple rounded-top">Mestrado em Design Sustentável, Politecnico di Milano, Itália, 2012</li>
+                    <li class="list-group-item bg-dark-purple">Pós-Graduação em Lighting Design, IED Rio, 2010</li>
+                    <li class="list-group-item bg-dark-purple">Bacharelado em Arquitetura e Urbanismo, USP, 2006</li>
+                    <li class="list-group-item bg-dark-purple rounded-bottom">Certificação LEED Green Associate, 2015</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção Diferenciais -->
+        <section class="pt-5" id="diferenciais">
+            <h1 class="text-dark-purple">Diferenciais</h1>
+            <br>
+            <div class="blog-section row">
+                <img src="assets/images/diferenciais.png" class="blog-item w-50" alt="Projeto premiado">
+                <ul class="list-group text-dark-purple blog-item">
+                    <li class="list-group-item bg-yellow rounded-top">Abordagem personalizada para cada cliente</li>
+                    <li class="list-group-item bg-yellow">Uso de tecnologias 3D e realidade virtual</li>
+                    <li class="list-group-item bg-yellow">Rede de fornecedores e artesãos qualificados</li>
+                    <li class="list-group-item bg-yellow">Acompanhamento completo da obra</li>
+                    <li class="list-group-item bg-yellow rounded-bottom">Compromisso com prazos e orçamentos</li>
+                </ul>
+            </div>
+        </section>
+            
+        <br>
+        <a class="mt-4 mb-5 btn btn-outline-primary rounded-pill" href="#">Voltar para o topo</a>
+
+    </main>
+    
+    <!-- Rodapé -->
+    <footer class="blog-footer row">
+        <div class="mr-5 ml-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.328661885406!2d-43.1050929246879!3d-22.902557579258616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99817ee58f1c1f%3A0x4c4e3caf46a9f4b8!2sAv.%20Rio%20Branco%2C%20123%20-%20Centro%2C%20Niter%C3%B3i%20-%20RJ%2C%2024030-002!5e0!3m2!1spt-BR!2sbr!4v1689209764054!5m2!1spt-BR!2sbr" 
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="d-flex flex-column align-self-center font-weight-bold mb-4 ml-5 mr-5">
+            <item class="p-4"> contato@studiobrisa.com.br </item>
+            <item class="p-2">Av. Rio Branco, 123 - Sala 501</item>
+            <item class="p-2">Centro, Niterói - RJ</item>
+            <item class="p-2">(21) 98765-4321</item>
+            <div class="social-icons p-2">
+                <a href="#" class="text-white mr-3"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-pinterest-p fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-whatsapp fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

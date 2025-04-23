@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Portfólio | Studio Brisa</title>
+</head>
+
+<main>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="Studio Brisa" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" 
+                aria-controls="menu" aria-expanded="false" aria-label="Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle active" data-toggle="dropdown" href="#">
+                            Portfólio
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#sobre">Geral</a>
+                            <a class="dropdown-item" href="#residencial">Residencial</a>
+                            <a class="dropdown-item" href="#comercial">Comercial</a>
+                            <a class="dropdown-item" href="#verde">Design Verde</a>
+                            <a class="dropdown-item" href="#depoimentos">Depoimentos</a>
+                        </div>
+                    </div>
+                    <a class="nav-item nav-link" href="faq.html">FAQ</a>
+                    <a class="nav-item nav-link" href="contato.html">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousels -->
+    <div class="position-relative">
+        <div id="main-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#main-carousel" data-slide-to="1"></li>
+                <li data-target="#main-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/carousel1.jpg" class="d-block w-100" alt="Projeto Residencial">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Residência Moderna - Niterói</h5>
+                        <a href="#residencial" class="btn btn-purple">Ver Projetos Residenciais</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/carousel2.jpg" class="d-block w-100" alt="Projeto Comercial">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Escritório Corporativo - Rio de Janeiro</h5>
+                        <a href="#comercial" class="btn btn-purple">Ver Projetos Comerciais</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/carousel3.jpeg" class="d-block w-100" alt="Design Sustentável">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Edifício Sustentável - Centro</h5>
+                        <a href="#verde" class="btn btn-purple">Ver Projetos Verdes</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#main-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#main-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+    <main class="container py-5">
+        <!-- Sobre Mariana -->
+        <section class="about-section mb-5 bg-white p-4 rounded shadow-sm">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/images/mariana-costa.jpg" alt="Mariana Costa" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-6 text-dark">
+                    <h2 class="text-dark-purple mb-4">Sobre Mariana Costa</h2>
+                    <p class="text-muted">Arquiteta e designer de interiores formada pela USP, com especialização em Design Sustentável pela Politecnico di Milano. Com mais de 15 anos de experiência no mercado, já desenvolveu projetos residenciais, comerciais e corporativos premiados.</p>
+                    <p class="text-muted">Fundadora do Studio Brisa, Mariana acredita que bons projetos devem refletir a personalidade dos clientes enquanto criam espaços práticos e inspiradores.</p>
+                    <div class="d-flex mt-4">
+                        <a href="contato.html" class="btn btn-outline-purple mr-3">Agende uma Consulta</a>
+                        <a href="#depoimentos" class="btn btn-purple">Veja Depoimentos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards -->
+        <section id="residencial" class="mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="text-dark-purple mb-0"><i class="fas fa-home mr-2"></i>Projetos Residenciais</h2>
+            </div>
+    
+            <div class="row project-scroll mb-4">
+                <!-- residencial 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/residencial1.jpg" class="card-img-top" alt="Casa Moderna">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Casa Moderna - Niterói</h5>
+                                <span class="badge bg-yellow text-dark-purple">2023</span>
+                            </div>
+                            <p class="card-text">Projeto completo para residência de 350m² com integração de ambientes e vista para o mar.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="residencial1">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">12</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="residencial1">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">2</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#residencialModal1">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- residencial 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/residencial2.jpg" class="card-img-top" alt="Apartamento Leblon">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Apartamento Leblon</h5>
+                                <span class="badge bg-yellow text-dark-purple">2025</span>
+                            </div>
+                            <p class="card-text">Reforma completa de 180m² com integração sala-jantar e varanda gourmet.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="residencial2">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">18</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="residencial2">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">1</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#residencialModal2">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- residencial 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/residencial3.jpg" class="card-img-top" alt="Casa Colonial">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Casa Colonial - São Gonçalo</h5>
+                                <span class="badge bg-yellow text-dark-purple">2022</span>
+                            </div>
+                            <p class="card-text">Restauro de casa histórica com 280m² mantendo características originais.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="residencial3">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">9</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="residencial3">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">0</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#residencialModal3">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- residencial 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/residencial4.jpg" class="card-img-top" alt="Cobertura Barra">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Cobertura Barra</h5>
+                                <span class="badge bg-yellow text-dark-purple">2023</span>
+                            </div>
+                            <p class="card-text">Projeto de 320m² com terraço panorâmico e piscina infinita.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="residencial4">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">14</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="residencial4">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">2</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#residencialModal4">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn btn-outline-purple float-right">Ver todos os residenciais →</a>
+        </section>
+
+        <section id="comercial" class="mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="text-dark-purple mb-0"><i class="fas fa-building mr-2"></i>Projetos Comerciais</h2>
+            </div>
+            
+            <div class="row project-scroll mb-4">
+                <!-- comercial 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/comercial1.jpg" class="card-img-top" alt="Escritório Corporativo">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Escritório Corporativo - Centro</h5>
+                                <span class="badge bg-yellow text-dark-purple">2022</span>
+                            </div>
+                            <p class="card-text">Ambiente de trabalho moderno e funcional para 50 colaboradores.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="comercial1">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">8</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="comercial1">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">1</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#comercialModal1">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- comercial 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/comercial2.jpg" class="card-img-top" alt="Restaurante Temático">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Restaurante Temático - Ipanema</h5>
+                                <span class="badge bg-yellow text-dark-purple">2023</span>
+                            </div>
+                            <p class="card-text">Ambiente com 150m² inspirado na cultura carioca, com iluminação cenográfica.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="comercial2">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">11</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="comercial2">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">0</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#comercialModal2">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- comercial 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/comercial3.jpg" class="card-img-top" alt="Loja Conceito">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Loja Conceito - Shopping Leblon</h5>
+                                <span class="badge bg-yellow text-dark-purple">2023</span>
+                            </div>
+                            <p class="card-text">Design de 120m² para marca de moda sustentável com elementos reciclados.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="comercial3">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">9</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="comercial3">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">1</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#comercialModal3">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- comercial 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/comercial4.jpg" class="card-img-top" alt="Clínica Médica">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Clínica Médica - Botafogo</h5>
+                                <span class="badge bg-yellow text-dark-purple">2023</span>
+                            </div>
+                            <p class="card-text">Projeto de 300m² com 8 consultórios, recepção acolhedora e fluxo otimizado.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="comercial4">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">6</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="comercial4">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">0</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#comercialModal4">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn btn-outline-purple float-right">Ver todos os comerciais →</a>
+        </section>
+
+        <section id="verde" class="mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="text-dark-purple mb-0"><i class="fas fa-leaf mr-2"></i>Design Verde</h2>
+            </div>
+            
+            <div class="row project-scroll mb-4">
+                <!-- verde 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/verde1.jpg" class="card-img-top" alt="Casa Sustentável">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Casa Sustentável - Maricá</h5>
+                                <span class="badge bg-yellow text-dark-purple">2022</span>
+                            </div>
+                            <p class="card-text">Projeto com certificação LEED, utilizando energia solar e materiais reciclados.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="verde1">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">15</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="verde1">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">0</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#verdeModal1">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- verde 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/verde2.jpeg" class="card-img-top" alt="Edifício Sustentável">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Edifício Sustentável - Centro</h5>
+                                <span class="badge bg-yellow text-dark-purple">2023</span>
+                            </div>
+                            <p class="card-text">Prédio comercial com certificação LEED Platinum, 1500m².</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="verde2">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">10</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="verde2">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">0</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#verdeModal2">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- verde 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/verde3.jpg" class="card-img-top" alt="Casa Container">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Casa Container - Itaboraí</h5>
+                                <span class="badge bg-yellow text-dark-purple">2021</span>
+                            </div>
+                            <p class="card-text">Residência de 120m² feita com containers reciclados e energia solar.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="verde3">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">21</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="verde3">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">2</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#verdeModal3">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- verde 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="assets/images/verde4.jpg" class="card-img-top" alt="Escritório Verde">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0">Escritório Verde - Jardim Botânico</h5>
+                                <span class="badge bg-yellow text-dark-purple">2024</span>
+                            </div>
+                            <p class="card-text">Escritório de 200m² com telhado verde e sistema de reaproveitamento de água.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="like-buttons">
+                                    <button class="btn-like like-btn" data-project="verde4">
+                                        <i class="far fa-thumbs-up"></i> <span class="like-count">12</span>
+                                    </button>
+                                    <button class="btn-like dislike-btn" data-project="verde4">
+                                        <i class="far fa-thumbs-down"></i> <span class="dislike-count">0</span>
+                                    </button>
+                                </div>
+                                <button class="btn btn-sm btn-purple" data-toggle="modal" data-target="#verdeModal4">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn btn-outline-purple float-right">Ver todos os projetos verdes →</a>
+        </section>
+
+        <!-- Depoimentos -->
+        <section id="depoimentos" class="mb-5">
+            <h2 class="text-dark-purple mb-4">Depoimentos de Clientes</h2>
+            <div class="row">
+                <!-- Depoimentos 1-3 (sempre visíveis) -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente1.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Caito Mainier</h5>
+                                <small class="text-muted">Residência em Icaraí</small>
+                            </div>
+                        </div>
+                        <p>"Mariana transformou completamente nosso apartamento. O projeto superou todas as expectativas, com soluções inteligentes que tornaram o espaço muito mais funcional e bonito."</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Essa estrutura é repetidada 9 vezes-->
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente2.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Fernanda Torres</h5>
+                                <small class="text-muted">Escritório em Botafogo</small>
+                            </div>
+                        </div>
+                        <p>"O Studio Brisa transformou nosso escritório em um espaço que reflete perfeitamente nossa marca. A equipe foi atenciosa e profissional em todas as etapas."</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente3.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Ricardo Almeida</h5>
+                                <small class="text-muted">Restaurante em Ipanema</small>
+                            </div>
+                        </div>
+                        <p>"O projeto superou todas as expectativas. Criaram um ambiente que encanta nossos clientes e otimizou nosso fluxo de trabalho. Recomendo sem dúvidas!"</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Botão "Mostrar mais" após os 3 primeiros depoimentos -->
+                <div class="col-12 show-more-container">
+                    <button id="showMoreBtn" class="testimonial-btn">Mostrar mais depoimentos</button>
+                </div>
+        
+                <!-- Depoimentos 4-10 (ocultos inicialmente) -->
+                <div class="col-md-4 mb-4 more-testimonials">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente4.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Patrícia Souza</h5>
+                                <small class="text-muted">Casa em Maricá</small>
+                            </div>
+                        </div>
+                        <p>"Mariana entendeu perfeitamente nosso estilo de vida e criou uma casa que é nossa cara. A atenção aos detalhes e soluções sustentáveis foram um diferencial."</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 mb-4 more-testimonials">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente5.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Marcos Oliveira</h5>
+                                <small class="text-muted">Clínica Médica</small>
+                            </div>
+                        </div>
+                        <p>"Profissionalismo e criatividade em todos os aspectos. Criaram um ambiente acolhedor para pacientes e funcional para nossa equipe médica."</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 mb-4 more-testimonials">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente6.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Isabela Costa</h5>
+                                <small class="text-muted">Loja de Design</small>
+                            </div>
+                        </div>
+                        <p>"Transformaram nosso showroom em um espaço que valoriza nossos produtos e cria uma experiência única para os clientes. O projeto aumentou nossas vendas em 40%."</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 mb-4 more-testimonials">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente7.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Gustavo Henrique</h5>
+                                <small class="text-muted">Casa Container</small>
+                            </div>
+                        </div>
+                        <p>"Admiro como conseguiram unir sustentabilidade, conforto e design em nosso projeto. A casa superou todas as expectativas e ainda reduzimos nossos custos com energia."</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 mb-4 more-testimonials">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente8.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Luana Martins</h5>
+                                <small class="text-muted">Café Cultural</small>
+                            </div>
+                        </div>
+                        <p>"O Studio Brisa captou perfeitamente a essência do nosso negócio. Criaram um espaço que é ao mesmo tempo aconchegante e funcional, perfeito para nossos eventos."</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 mb-4 more-testimonials">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente9.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Roberto Carlos</h5>
+                                <small class="text-muted">Hotel em Búzios</small>
+                            </div>
+                        </div>
+                        <p>"O projeto sustentável não só reduziu nossos custos operacionais como se tornou nosso principal diferencial no mercado. Os hóspedes amam o conceito!"</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 mb-4 more-testimonials">
+                    <div class="card bg-light-purple p-4 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/cliente10.jpg" alt="Cliente" class="rounded-circle mr-3" width="60">
+                            <div>
+                                <h5 class="mb-0">Rebeca Andrade</h5>
+                                <small class="text-muted">Apartamento em Copacabana</small>
+                            </div>
+                        </div>
+                        <p>"Como moradora de um apartamento pequeno, adorei as soluções inteligentes que criaram para otimizar cada centímetro sem perder o estilo e conforto."</p>
+                        <div class="text-yellow">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Botão "Mostrar menos" no final -->
+                <div class="col-12 show-less-container">
+                    <button id="showLessBtn" class="testimonial-btn">Mostrar menos depoimentos</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modals para detalhes dos projetos -->
+        <!-- Modal Residencial 1 -->
+        <div class="modal fade" id="residencialModal1" tabindex="-1" aria-labelledby="residencialModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-dark-purple text-white">
+                        <h5 class="modal-title" id="residencialModal1Label">Casa Moderna - Niterói</h5>
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="assets/images/residencial1.jpg" class="img-fluid mb-3" alt="Casa Moderna">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <button class="btn-like like-btn" data-project="residencial1-modal">
+                                            <i class="far fa-thumbs-up"></i> <span class="like-count">12</span>
+                                        </button>
+                                        <button class="btn-like dislike-btn" data-project="residencial1-modal">
+                                            <i class="far fa-thumbs-down"></i> <span class="dislike-count">2</span>
+                                        </button>
+                                    </div>
+                                    <span class="badge bg-yellow text-dark-purple">Residencial</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="text-dark-purple">Detalhes do Projeto</h5>
+                                <p><strong>Área:</strong> 350m²</p>
+                                <p><strong>Localização:</strong> Niterói, RJ</p>
+                                <p><strong>Ano:</strong> 2023</p>
+                                <p><strong>Características:</strong> Integração de ambientes, vista para o mar, iluminação natural otimizada, uso de materiais sustentáveis.</p>
+                                <p>Este projeto residencial moderno foi desenvolvido para uma família que valoriza espaços amplos e integrados. A casa conta com grandes janelas que aproveitam a vista para o mar e a iluminação natural, reduzindo o consumo de energia.</p>
+                                <h6 class="text-dark-purple mt-4">Materiais Principais</h6>
+                                <ul>
+                                    <li>Madeira certificada</li>
+                                    <li>Pisos de concreto queimado</li>
+                                    <li>Vidros especiais para controle térmico</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-purple" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-purple">Solicitar Projeto Similar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mais modais para outros projetos (ainda não implementados) -->
+        
+        <br>
+        <a class="mt-4 mb-5 btn btn-outline-primary rounded-pill" href="#">Voltar para o topo</a>
+    
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="blog-footer row">
+        <div class="mr-5 ml-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.328661885406!2d-43.1050929246879!3d-22.902557579258616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99817ee58f1c1f%3A0x4c4e3caf46a9f4b8!2sAv.%20Rio%20Branco%2C%20123%20-%20Centro%2C%20Niter%C3%B3i%20-%20RJ%2C%2024030-002!5e0!3m2!1spt-BR!2sbr!4v1689209764054!5m2!1spt-BR!2sbr" 
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="d-flex flex-column align-self-center font-weight-bold mb-4 ml-5 mr-5">
+            <item class="p-4"> contato@studiobrisa.com.br </item>
+            <item class="p-2">Av. Rio Branco, 123 - Sala 501</item>
+            <item class="p-2">Centro, Niterói - RJ</item>
+            <item class="p-2">(21) 98765-4321</item>
+            <div class="social-icons p-2">
+                <a href="#" class="text-white mr-3"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-pinterest-p fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-whatsapp fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

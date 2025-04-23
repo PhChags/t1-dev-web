@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Contato | Studio Brisa</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="Studio Brisa" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" 
+                aria-controls="menu" aria-expanded="false" aria-label="Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle active" data-toggle="dropdown" href="#">
+                            Portfólio
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#sobre">Geral</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#residencial">Residencial</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#comercial">Comercial</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#verde">Design Verde</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio.html#depoimentos">Depoimentos</a>
+                        </div>
+                    </div>
+                    <a class="nav-item nav-link" href="faq.html">FAQ</a>
+                    <a class="nav-item nav-link" href="contato.html">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex justify-content-center">
+        <img src="assets/images/contato.png" class="img-fluid" alt="Atendimento personalizado">
+    </div>
+
+    <main class="container">
+
+        <!-- Formulário para solicitação de orçamento -->
+        <section class="mt-5">
+            <h2 class="pb-4 mb-4 border-bottom text-dark-purple contato-titulo">
+                Solicite um Orçamento
+            </h2>
+            <div class="modal-body">
+                <form action="">
+                   <fieldset class="form-group">
+                      <legend class="font-weight-bold contato-legenda">Formulário de Contato</legend>
+ 
+                      <div class="form-group row">
+                         <label for="nome" class="col-form-label col-lg-2 form-label">Nome*</label>
+                         <div class="col-lg-10">
+                            <input type="text" name="nome"
+                                   class="form-control" 
+                                   placeholder="Seu nome completo" id="nome" required>
+                         </div>
+                      </div>
+
+                      <div class="form-group row">
+                         <label for="email" class="col-form-label col-lg-2 form-label">Email*</label>
+                         <div class="col-lg-10">
+                            <input type="email" id="email" name="email"
+                                   class="form-control" placeholder="Seu melhor e-mail" required>
+                         </div>
+                      </div>
+
+                      <div class="form-group row">
+                         <label for="telefone" class="col-form-label col-lg-2 form-label">Telefone*</label>
+                         <div class="col-lg-10">
+                            <input type="tel" id="telefone" name="telefone"
+                                   class="form-control" placeholder="(XX) XXXXX-XXXX" required>
+                         </div>
+                      </div>
+
+                      <div class="form-group row">
+                         <label class="col-form-label col-lg-2 form-label">Tipo de Projeto*</label>
+                         <div class="col-lg-10" style="padding-top: 7px;">
+                            <div class="form-check form-check-inline">
+                               <input type="radio" id="residencial" name="projeto" 
+                                      value="Residencial" class="form-check-input" required>
+                               <label for="residencial" class="form-check-label">
+                                  Residencial
+                               </label>       
+                            </div>
+                            <div class="form-check form-check-inline">
+                               <input type="radio" id="comercial" name="projeto" 
+                                      value="Comercial" class="form-check-input">
+                               <label for="comercial" class="form-check-label">
+                                  Comercial
+                               </label>       
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" id="sustentavel" name="projeto" 
+                                       value="Sustentável" class="form-check-input">
+                                <label for="sustentavel" class="form-check-label">
+                                   Sustentável
+                                </label>       
+                             </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" id="outro" name="projeto" 
+                                       value="Outro" class="form-check-input">
+                                <label for="outro" class="form-check-label">
+                                   Outro
+                                </label>       
+                            </div>
+                         </div>
+                      </div>
+
+                      <div class="form-group row">
+                         <label for="mensagem" class="col-form-label col-lg-2 form-label">Mensagem*</label>
+                         <div class="col-lg-10">
+                            <textarea class="form-control" id="mensagem" rows="5" 
+                                      placeholder="Descreva brevemente seu projeto, necessidades e preferências." required></textarea>
+                         </div>
+                      </div>
+
+                      <div class="form-group row">
+                         <div class="col-lg-10 offset-lg-2">
+                            <div class="form-check">
+                               <input type="checkbox" id="newsletter" name="newsletter"
+                                      class="form-check-input" checked>
+                               <label for="newsletter" class="form-check-label">
+                                  Desejo receber novidades e conteúdos sobre arquitetura
+                               </label>
+                            </div>
+                         </div>
+                      </div>
+                   </fieldset>
+                   
+                   <div class="form-group row">
+                      <div class="col-lg-10 offset-lg-2">
+                         <button type="submit" class="btn btn-primary">
+                            Enviar Mensagem
+                         </button>
+                      </div>
+                   </div>
+                </form>
+             </div>
+        </section>
+
+        <!-- Seção com icones das redes sociais -->
+        <section class="mt-5">
+            <h2 class="pb-4 mb-4 border-bottom text-dark-purple contato-titulo">
+                Redes Sociais
+            </h2>
+            <div class="row justify-content-start ml-1 mb-4"> 
+                <a href="https://www.instagram.com/marianacosta.arq/"><img class="icon mr-3" src="assets/images/insta.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/marianacosta.arq"><img class="icon mr-3" src="assets/images/face.png" alt="Facebook"></a>
+                <a href="https://pinterest.com/marianacosta.arq"><img class="icon mr-3" src="assets/images/pinto.png" alt="Pinterest"></a>
+                <a href="https://www.linkedin.com/in/mariana-costa-arquitetura/"><img class="icon mr-3" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://wa.me/5521987654321"><img class="icon mr-3" src="assets/images/whats.png" alt="WhatsApp"></a>
+            </div>
+        </section>
+
+        <!-- Seção horário de atendimento -->
+        <section class="mt-5 mb-5">
+            <h2 class="pb-4 mb-4 border-bottom text-dark-purple contato-titulo">
+                Horário de Atendimento
+            </h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="horario-texto"><strong>Segunda a Sexta:</strong> 9h às 18h</p>
+                    <p class="horario-texto"><strong>Sábado:</strong> 10h às 14h (atendimento com agendamento)</p>
+                    <p class="horario-texto"><strong>Domingo e Feriados:</strong> Fechado</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="horario-texto text-muted">
+                        <small>
+                            * Visitas técnicas e reuniões presenciais devem ser agendadas com antecedência.<br>
+                            * Atendemos em todo o Rio de Janeiro e região metropolitana.
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="blog-footer row">
+        <div class="mr-5 ml-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.328661885406!2d-43.1050929246879!3d-22.902557579258616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99817ee58f1c1f%3A0x4c4e3caf46a9f4b8!2sAv.%20Rio%20Branco%2C%20123%20-%20Centro%2C%20Niter%C3%B3i%20-%20RJ%2C%2024030-002!5e0!3m2!1spt-BR!2sbr!4v1689209764054!5m2!1spt-BR!2sbr" 
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="d-flex flex-column align-self-center font-weight-bold mb-4 ml-5 mr-5">
+            <item class="p-4"> contato@studiobrisa.com.br </item>
+            <item class="p-2">Av. Rio Branco, 123 - Sala 501</item>
+            <item class="p-2">Centro, Niterói - RJ</item>
+            <item class="p-2">(21) 98765-4321</item>
+            <div class="social-icons p-2">
+                <a href="#" class="text-white mr-3"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-pinterest-p fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-whatsapp fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
